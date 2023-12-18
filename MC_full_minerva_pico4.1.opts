@@ -286,7 +286,7 @@ ApplicationMgr.EvtSel  = "NONE" ;
 //-----------------------------------------------------------
 //DetectorDataSvc.DetDbLocation = "$MINERVA_GEOMETRY/MINERVA2x2_Minirun.xml";
 //DetectorDataSvc.DetDbLocation = "$MINERVA_GEOMETRY/MINERVA.xml";
-DetectorDataSvc.DetDbLocation = "$MINERVA_GEOMETRY/MINERVA2x2.xml";
+DetectorDataSvc.DetDbLocation = "$MINERVA_GEOMETRY/MINERVA2x2_Minirun.xml";
 DetectorDataSvc.ApplyAlignment = false;
 
 //---------------------------------------------------------------------------
