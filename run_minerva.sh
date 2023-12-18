@@ -14,7 +14,11 @@ export TMP_MINERVA=$OUTPUT_DIRECTORY'/minerva_root'
 
 echo "SETUP MINERVA"
 
-source setup_cmt.sh
+#for runs before pico 4.1
+#source setup_minerva_pico4.1.sh
+
+#Updated geometry
+source setup_minerva.sh
 
 cd $WORKING_DIRECTORY
 
