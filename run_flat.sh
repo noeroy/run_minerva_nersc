@@ -73,6 +73,10 @@ NAME_ROOT_HISTO=${CAMPAIGN}_${POT}_${MODE}.minerva.${run}.Histogam.root
 
 FULLFILE=$OPTION_DIRECTORY'/full_'$run'.opts'
 
+#for runs before pico 4.1
+#cp MC_full_minerva_pico4.1.opts $FULLFILE
+
+
 cp MC_full_minerva.opts $FULLFILE
 
 sed -i "s/MAXEVT/${NSPILL}/g" $FULLFILE
@@ -84,4 +88,3 @@ sed -i "s#DST_DIRECTORY#${DST_DIRECTORY}#g" $FULLFILE
 sed -i "s/DSTNAME/${DSTNAME}/g" $FULLFILE
 sed -i "s#NAME_ROOT_OUTPUT#${NAME_ROOT_OUTPUT}#g" $FULLFILE
 sed -i "s#NAME_ROOT_HISTO#${NAME_ROOT_HISTO}#g" $FULLFILE
-
