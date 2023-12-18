@@ -11,24 +11,12 @@ export OPTION_DIRECTORY=$OUTPUT_DIRECTORY'/options'
 export DST_DIRECTORY=$OUTPUT_DIRECTORY'/dst'
 export FLATROOT_DIRECTORY=$OUTPUT_DIRECTORY'/flat_root'
 export TMP_MINERVA=$OUTPUT_DIRECTORY'/minerva_root'
-export FLATROOT_NAME="${CAMPAIGN}_${POT}_${MODE}.spill.${run}.EDEPSIM_SPILLS.flat.root"
-
 
 echo "SETUP MINERVA"
 
 source setup_cmt.sh
 
 cd $WORKING_DIRECTORY
-
-
-echo "RUNNING MINERvA"
-
-export OUTPUT_DIRECTORY=$WORKING_DIRECTORY'/output_dir/run_'$run
-export LOG_DIRECTORY=$OUTPUT_DIRECTORY'/logs'
-export OPTION_DIRECTORY=$OUTPUT_DIRECTORY'/options'
-export DST_DIRECTORY=$OUTPUT_DIRECTORY'/dst'
-export FLATROOT_DIRECTORY=$OUTPUT_DIRECTORY'/flat_root'
-export TMP_MINERVA=$OUTPUT_DIRECTORY'/minerva_root'
 
 echo $run
 echo "FULL JOB"
