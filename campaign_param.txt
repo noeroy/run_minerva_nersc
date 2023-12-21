@@ -1,7 +1,7 @@
-CAMPAIGN=PicoRun4.1
-POT=1E17
+CAMPAIGN=MiniRun5
+POT=1E19
 MODE=RHC
-FILELOCATION=/global/cfs/cdirs/dune/www/data/2x2/simulation/productions/PicoRun4.1_1E17_RHC/PicoRun4.1_1E17_RHC.spill/EDEPSIM_SPILLS/
-OFFSETX=0.
-OFFSETY=2680.
-OFFSETZ=-6451.350
+FILELOCATION=/pscratch/sd/m/mkramer/out.MiniRun5/run-spill-build/output/MiniRun5_1E19_RHC.spill/EDEPSIM_SPILLS/
+OFFSETX=0.0
+OFFSETY=218.338
+OFFSETZ=6913
